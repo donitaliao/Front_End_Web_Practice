@@ -1,0 +1,146 @@
+body {
+    font-family: Noto Sans, sans-serif, serif;
+    font-weight: normal;
+    color: #404040;
+}
+h1 {
+	font-size: 46px;
+}
+h2 {
+    font-size: 46px;
+    text-align: center;
+}
+.body_container {
+    padding: 0 20px 0 20px;
+}
+.flex_display {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container {
+    background-color: #f0f0f0;
+    padding: 50px 0 50px 0;
+    line-height: 250%;
+    text-align: center;
+}
+.avator {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	display: table;
+	margin: 0 auto;
+	background-color: #f0f0f0;
+}
+.container .overview{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overview a {
+	padding: 0 10px 0 10px;
+}
+.fab.fa-linkedin {
+	font-size: 30px;
+	color: #666666;
+}
+.container_transparent {
+	text-align: center;
+}
+.container_transparent h1 {
+	margin: 100px 0 0 0;
+}
+.container_transparent h2 {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+.blocks {
+    justify-content: center;
+}
+.block {
+	flex-direction: column;
+    margin: 0 20px 0 0;
+    width: 25%;
+    /*padding: 0 46px 0 0;*/
+}
+.block h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+}
+.skill_content {
+    margin: 0 auto;
+    width: 80%;
+}
+.block p {
+    line-height: 135%;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.tools_content {
+	flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+}
+.tools_content h4 {
+	font-weight: bold;
+	padding: 6px 0 0 0;
+}
+.experience {
+	padding-left: 50px;
+	text-align: left;
+}
+.experience h2 {
+    font-size: 40px;
+    font-weight: normal;
+    padding: 6px 0 6px 0;
+    margin: 0;
+}
+.job_duration {
+	font-size: 25px;
+    font-weight: lighter;
+}
+.jobtitle {
+	font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+.jbd {
+	padding-bottom: 70px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+	.blocks .block {
+        width: 98%;
+    }
+    .block {
+	flex-direction: column;
+    margin: 0 auto;
+	}
+    .block p {
+    line-height: 135%;
+    text-align: left;
+    padding-bottom: 20px;
+	}
+	.block h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+	}
+	.blocks .tools_content {
+        width: 98%;
+    }
+    .tools_content p {
+    	margin: 0 auto;
+    	padding-top: 10px;
+    }
+	.experience {
+	padding: 0;
+	text-align: left;
+	}
+}
